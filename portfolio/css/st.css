@@ -1,0 +1,440 @@
+      
+      body{
+          margin:0;
+      }
+    
+     .navigation{
+           background-color: aquamarine ;
+            
+        }
+        .logo, .menu{
+            display:inline-block;
+            
+        }    
+        .logo{
+            
+            margin:20px;
+        }
+        .menu{
+           
+            float:right;
+            margin:20px;
+        }
+   .menu ul{
+        list-style:none;
+       padding-left: 0px;
+       margin:0
+        }
+        
+        .menu ul li{
+            display:inline-block;
+            margin-right: 20px;
+        }  
+        .menu ul li a{
+            text-decoration: none;
+            
+           padding: 20px 15px 20px 15px;
+        }
+        .menu ul li a:hover{
+            background-color: blue;
+            color:white;
+            
+            transition:all 0.6s ease;
+        }
+/*HEADER SECTION*/
+
+header{
+    background-image: url(../img/DSC_0223.JPG);
+        height:500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:y=150px;
+    
+    
+     
+}
+header h1{
+    margin-top: 0;
+    
+}
+
+.cvc {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.col-right p{
+    padding-right: 100px;
+}
+      
+.button {
+    background-color: aquamarine;
+    color:white;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 15px 10px;
+     font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+
+.button-con{
+    background-color: white;
+    color: aquamarine;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+
+.button:hover{
+    background-color: white;
+    color:aquamarine;
+    transition: all 0.5s ease;
+}
+
+.button-con:hover{
+    background-color: aquamarine;
+    color:white;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+.about-me{
+    width:100%;
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+     
+}
+
+.about-me:after{
+    content: '';
+    display:block;
+    clear:both;
+}
+
+.about-me h2{
+    color:#333;
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+
+.about-me h2:after{
+      content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left:50%;
+    bottom:0px;
+    background-color: #85af4b;
+}
+
+.about-me .col-left{
+    width: 50%;
+    float: left;
+   
+}
+
+  
+
+
+.about-me .col-left{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about-me .col-left img{
+    max-width: 100%
+}
+
+
+
+
+
+
+
+.skills{
+    background-color: #e2e2e2;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+    
+}
+
+.skills h2{
+    padding-bottom: 10px;
+    position: relative
+    
+}
+
+.skills h2:after{
+      content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    
+    left:50%;
+    bottom:0px;
+    background-color: #85af4b;
+}
+
+
+
+
+
+.skills:after{
+    content: '';
+    display:block;
+    clear:both;
+    
+}
+
+.skills .skills-left,.skills .skills-center,.skills .skills-right{
+    width: 33.33333333%;
+    display: inline-block;
+    float:left;
+     
+       
+}
+
+.skills i{
+    font-size: 60px;
+    color:#85af4b;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+    
+}
+
+.project:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.project h2{
+    padding-bottom: 10px;
+    margin-top: 0;
+    position: relative
+    
+}
+
+
+.project h2:after{
+      content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    
+    left:50%;
+    bottom:0px;
+    background-color: #85af4b;
+}
+
+
+
+.project .project1,.project .project2,.project .project3{
+    height:300px;
+    width:33.33333333%;
+    display:inline-block;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.project1{
+    background-image: url(../img/IMG_7702.JPG);
+        background-size: cover;
+}
+
+.project2{
+    background-image: url(../img/FB_IMG_1534309754870.jpg);
+        background-size: cover;
+    
+}
+
+.project3{
+    background-image: url(../img/13662408_664877116994831_934127847_o.jpg);
+        background-size: cover
+}
+
+.project .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+    padding-top: 310px;
+}
+
+.project .overlay:hover{
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 130px;
+    transition:all 0.5s ease;
+}
+
+.overlay a{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+.contact{
+    text-align: center;
+    background-color: #e2e2e2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.contact:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+
+.contact h2{
+    padding-bottom: 10px;
+    margin-top: 0;
+    position: relative
+    
+}
+
+
+.contact h2:after{
+      content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    
+    left:50%;
+    bottom:0px;
+    background-color: #85af4b;
+}
+
+.social{
+    width:80%;
+    margin:0 auto;
+    text-align: left;
+    
+}
+.social i{
+    float: left;
+    margin-top: 17px;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.social1 p,.social2 p,.social3 p{
+    display: inline-block;
+}
+
+.social1,.social2{
+    width:33.33333%;
+    display:inline-block;
+    float:left;
+}
+
+.social i{
+    color:#85af4b;
+}
+
+.text-bold{
+    color: #333;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+footer{
+ background-color: #777777;
+}
+
+.footer:after{
+    content='';
+    display:block;
+    clear:both;
+}
+
+.end p{
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
